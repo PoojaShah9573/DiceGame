@@ -2,7 +2,7 @@ function myfunc()
 {
 var randomNumber1=Math.floor(Math.random()*6)+1; //1-6
 var randomDiceImage= "dice" + randomNumber1 +".png";  //dice1-dice-6
-var randomImagesorce= "Images/" + randomDiceImage;  //images/dice1-dice6.png
+var randomImagesorce= "images/" + randomDiceImage;  //images/dice1-dice6.png
 var image1=document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomImagesorce);
 
