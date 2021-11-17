@@ -10,11 +10,11 @@ function myfunc()
   
  var randomNumber1=Math.floor(Math.random()*6)+1;
 var randomImagesorce1="images/dice" + randomNumber2 +".png";
-document.querySelectorAll('img')[0].setAttribute("src", randomImagesorce1);
+document.querySelectorAll('img')[1].setAttribute("src", randomImagesorce1);
 
 var randomNumber2=Math.floor(Math.random()*6)+1;
 var randomImagesorce2="images/dice" + randomNumber2 +".png";
-document.querySelectorAll('img')[1].setAttribute("src", randomImagesorce2);
+document.querySelectorAll('img')[2].setAttribute("src", randomImagesorce2);
 
 
 
